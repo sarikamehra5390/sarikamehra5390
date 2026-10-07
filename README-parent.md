@@ -25,7 +25,7 @@ Education: B.Tech CSE (Data Science)
 Status: Undergraduate
 Location: Delhi, India
 Focus: Software Development & DSA
-Languages: Java, JavaScript, TypeScript, Java
+Languages: Java, JavaScript, TypeScript, Python
 Stack: React, Next.js, Node.js, Express.js
 Databases: MongoDB, PostgreSQL, Supabase, Appwrite
 Tools: Git, GitHub, VS Code, Vercel
@@ -45,11 +45,15 @@ $ ./competitive-profile
 
 🏆 **Competitive Programming**
 
-[![Codeforces](https://img.shields.io/badge/Codeforces-Sarika_Mehra-0088CC?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/sarikamehra773)
+<p align="center">
+  <a href="https://codeforces.com/profile/sarikamehra773">
+    <img src="./assets/badges/codeforces-badge.svg" />
+  </a>
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Sarika_Mehra-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/sarikamehra5390/)
-
-[![Codolio](https://img.shields.io/badge/Codolio-Sarika_Mehra-7C3AED?style=for-the-badge)](https://codolio.com/profile/Sarikamehra5390)
+  <a href="https://leetcode.com/u/sarikamehra5390/">
+    <img src="./assets/badges/leetcode-badge.svg" />
+  </a>
+</p>
 
 ```console
 $ ./projects --featured
@@ -82,15 +86,27 @@ $ ./connect
 
 📫 **Connect With Me**
 
-[![Email](https://img.shields.io/badge/Email-sarikamehra773%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sarikamehra773@gmail.com)
+<p align="center">
+  <a href="mailto:sarikamehra773@gmail.com">
+    <img src="./assets/badges/email-badge.svg" />
+  </a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sarika_Mehra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarika-mehra-792b9426a/)
+  <a href="https://www.linkedin.com/in/sarika-mehra-792b9426a/">
+    <img src="./assets/badges/linkedin-badge.svg" />
+  </a>
 
-[![GitHub](https://img.shields.io/badge/GitHub-sarikamehra5390-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarikamehra5390)
+  <a href="https://github.com/sarikamehra5390">
+    <img src="./assets/badges/github-badge.svg" />
+  </a>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sarika-mehra-portfolio.vercel.app/)
+  <a href="https://sarika-mehra-portfolio.vercel.app/">
+    <img src="./assets/badges/portfolio-badge.svg" />
+  </a>
 
-[![Codolio](https://img.shields.io/badge/Codolio-Sarika_Mehra-7C3AED?style=for-the-badge)](https://codolio.com/profile/Sarikamehra5390)
+  <a href="https://discord.com/users/sarika2012_2608">
+    <img src="./assets/badges/discord-badge.svg" />
+  </a>
+</p>
 
 ```console
 $ ./status

@@ -1,11 +1,11 @@
-![readme](https://readme-card-server-05r4.onrender.com/card)
+![README](https://readme-card-server-05r4.onrender.com/card)
 
-![competitive-programming](assets/commands/competitive-programming.svg)
+![Competitive Programming](assets/commands/competitive-programming.svg)
 
 [![Codeforces](assets/badges/codeforces-badge.svg)](https://codeforces.com/profile/sarikamehra773)
 [![LeetCode](assets/badges/leetcode-badge.svg)](https://leetcode.com/u/sarikamehra5390/)
 
-![connect with me](assets/commands/connect-with-me.svg)
+![Connect With Me](assets/commands/connect-with-me.svg)
 
 [![Email](assets/badges/email-badge.svg)](mailto:sarikamehra773@gmail.com)
 [![LinkedIn](assets/badges/linkedin-badge.svg)](https://www.linkedin.com/in/sarika-mehra-792b9426a/)
@@ -13,6 +13,6 @@
 <br/>
 [![Discord](assets/badges/discord-badge.svg)](https://discord.com/users/sarika2012_2608)
 
-![portfolio](assets/commands/portfolio.svg)
+![Portfolio](assets/commands/portfolio.svg)
 
-[![portfolio](assets/badges/portfolio-badge.svg)](https://sarika-mehra-portfolio.vercel.app/)
+[![Portfolio](assets/badges/portfolio-badge.svg)](https://sarika-mehra-portfolio.vercel.app/)

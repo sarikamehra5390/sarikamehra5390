@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="316" height="70" viewBox="0 0 316 70">
+<rect x="0.5" y="0.5" width="315" height="69" rx="7" fill="#0d1117" stroke="#30363d"/>
+<rect x="0" y="0" width="5" height="70" rx="3" fill="#1f9bd1"/>
+<rect x="24" y="28" width="8" height="20" rx="2" fill="#f0c040"/>
+<rect x="36" y="19" width="8" height="29" rx="2" fill="#179bd7"/>
+<rect x="48" y="33" width="8" height="15" rx="2" fill="#f04444"/>
+<text x="73" y="28" font-family="monospace" font-size="14" fill="#8b949e">$ codeforces</text>
+<text x="73" y="51" font-family="monospace" font-size="18" font-weight="700" fill="#1f9bd1">sarikamehra773</text>
+</svg>

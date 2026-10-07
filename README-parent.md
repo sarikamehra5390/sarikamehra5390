@@ -3,8 +3,8 @@
 >_ whoami
 ```
 ```bash
-Chandan Sahoo
-I'm a passionate developer, problem solver, and tech enthusiast. Always exploring, always building.
+Sarika Mehra
+I build, I solve, I learn — turning ideas into meaningful software one project at a time.
 ```
 ```bash
 >_ neofetch --stats
@@ -19,9 +19,9 @@ Stars: %%STARS_COUNT%%
 Followers: %%FOLLOWERS%%
 Contributions: %%CONTRIBUTIONS%%
 Last Commit: %%LAST_COMMIT_DATE%%
-Languages: JavaScript, TypeScript, C++
+Languages: JavaScript, TypeScript, Java
 Tech Stack: Node.js, React, Express, MongoDB, PostgreSQL
-Tools: Git, Docker, Cloudflare, Firebase, Appwrite
+Tools: Git, Appwrite,Github 
 ```
 
 ```bash
@@ -29,9 +29,8 @@ Tools: Git, Docker, Cloudflare, Firebase, Appwrite
 ```
 🏆 **Competitive Programming:**
 
-[![Codeforces Badge](https://img.shields.io/badge/Codeforces-Realmchan-0088CC?style=for-the-badge&logo=codeforces&logoColor=0088CC)](https://codeforces.com/profile/Realmchan)  
-[![Codechef Badge](https://img.shields.io/badge/Codechef-realm-e27a41?style=for-the-badge&logo=codechef&logoColor=e27a41)](https://www.codechef.com/users/realm)  
-[![Leetcode Badge](https://img.shields.io/badge/Leetcode-realmchan-FFA500?style=for-the-badge&logo=leetcode&logoColor=FFA500)](https://leetcode.com/realmchan)
+[![Codeforces Badge](https://img.shields.io/badge/Codeforces-sarikamehra-0088CC?style=for-the-badge&logo=codeforces&logoColor=0088CC)](https://codeforces.com/profile/sarikamehra773)  
+[![Leetcode Badge](https://img.shields.io/badge/Leetcode-sarikamehra-FFA500?style=for-the-badge&logo=leetcode&logoColor=FFA500)](https://leetcode.com/u/sarikamehra5390/n)
 
 ```bash
 >_ ping -c1 chandansahoo.dev

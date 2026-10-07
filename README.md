@@ -55,30 +55,6 @@ $ ./competitive-profile
   </a>
 </p>
 
-```console
-$ ./projects --featured
-```
-
-🚀 **Projects**
-
-**BlogNest** — Full-stack blogging platform with authentication, CRUD operations, article management and AI-powered features.
-
-**SkillForge** — Skill tracking and gamification platform with practice sessions, streaks, notes and progress tracking.
-
-**Roamly** — Travel planning platform integrating weather, geocoding, places and currency APIs.
-
-**Sust-10-able** — Gamified sustainability experience designed around interactive environmental learning.
-
-```console
-$ ./achievements
-```
-
-🏆 **Achievements**
-
-- 🥇 1st Place — IKS Exhibition, BPIT, 2024
-- 🥉 3rd Place — Data Sphere, SpaceCon'25, NSUT
-- 👩‍💻 Team Leader — Smart India Hackathon 2025
-- 📄 Research Paper Co-author — ML optimization for quantum-dot-based quantum computers
 
 ```console
 $ ./connect

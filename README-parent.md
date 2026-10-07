@@ -47,11 +47,11 @@ $ ./competitive-profile
 
 <p align="center">
   <a href="https://codeforces.com/profile/sarikamehra773">
-    <img src="./assets/badges/codeforces-badge.svg" />
+    <img src="./assets/badges/codeforces-badge.svg" alt="Codeforces" />
   </a>
 
   <a href="https://leetcode.com/u/sarikamehra5390/">
-    <img src="./assets/badges/leetcode-badge.svg" />
+    <img src="./assets/badges/leetcode-badge.svg" alt="LeetCode" />
   </a>
 </p>
 
@@ -88,23 +88,23 @@ $ ./connect
 
 <p align="center">
   <a href="mailto:sarikamehra773@gmail.com">
-    <img src="./assets/badges/email-badge.svg" />
+    <img src="./assets/badges/email-badge.svg" alt="Email" />
   </a>
 
   <a href="https://www.linkedin.com/in/sarika-mehra-792b9426a/">
-    <img src="./assets/badges/linkedin-badge.svg" />
+    <img src="./assets/badges/linkedin-badge.svg" alt="LinkedIn" />
   </a>
 
   <a href="https://github.com/sarikamehra5390">
-    <img src="./assets/badges/github-badge.svg" />
+    <img src="./assets/badges/github-badge.svg" alt="GitHub" />
   </a>
 
   <a href="https://sarika-mehra-portfolio.vercel.app/">
-    <img src="./assets/badges/portfolio-badge.svg" />
+    <img src="./assets/badges/portfolio-badge.svg" alt="Portfolio" />
   </a>
 
   <a href="https://discord.com/users/sarika2012_2608">
-    <img src="./assets/badges/discord-badge.svg" />
+    <img src="./assets/badges/discord-badge.svg" alt="Discord" />
   </a>
 </p>
 

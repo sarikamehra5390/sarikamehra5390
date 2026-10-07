@@ -63,7 +63,7 @@ $ ./connect
 
 📫 **Connect With Me**
 
-<p align="center">
+<p align="flex-wrap">
   <a href="mailto:sarikamehra773@gmail.com">
     <img src="./assets/badges/email-badge.svg" alt="Email" />
   </a>

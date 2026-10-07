@@ -2,9 +2,10 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    # Run every day at midnight UTC
+    # Run once every day at midnight UTC
     - cron: "0 0 * * *"
 
+  # Allow manual execution
   workflow_dispatch:
 
 permissions:
@@ -17,41 +18,38 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Get GitHub statistics
+      - name: Check GitHub profile
         env:
-          GH_TOKEN: ${{ github.token }}
           USERNAME: sarikamehra5390
         run: |
-          echo "Fetching GitHub statistics..."
+          echo "Checking GitHub profile..."
 
-          USER_DATA=$(curl -s \
-            -H "Authorization: Bearer $GH_TOKEN" \
+          RESPONSE=$(curl -s \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/users/$USERNAME")
 
-          REPO_COUNT=$(echo "$USER_DATA" | jq '.public_repos')
-          FOLLOWERS=$(echo "$USER_DATA" | jq '.followers')
+          REPOS=$(echo "$RESPONSE" | jq -r '.public_repos')
+          FOLLOWERS=$(echo "$RESPONSE" | jq -r '.followers')
+          FOLLOWING=$(echo "$RESPONSE" | jq -r '.following')
 
-          echo "Public repositories: $REPO_COUNT"
-          echo "Followers: $FOLLOWERS"
+          echo "--------------------------------"
+          echo "GitHub User : $USERNAME"
+          echo "Repositories: $REPOS"
+          echo "Followers   : $FOLLOWERS"
+          echo "Following   : $FOLLOWING"
+          echo "--------------------------------"
 
-          echo "REPO_COUNT=$REPO_COUNT" >> "$GITHUB_ENV"
-          echo "FOLLOWERS=$FOLLOWERS" >> "$GITHUB_ENV"
-
-      - name: Update README placeholders
+      - name: Verify README
         run: |
-          if grep -q "%%REPO_COUNT%%" README.md; then
-            sed -i "s|%%REPO_COUNT%%|$REPO_COUNT|g" README.md
+          if [ -f README.md ]; then
+            echo "README.md found successfully."
+          else
+            echo "README.md not found."
+            exit 1
           fi
 
-          if grep -q "%%FOLLOWERS%%" README.md; then
-            sed -i "s|%%FOLLOWERS%%|$FOLLOWERS|g" README.md
-          fi
-
-      - name: Commit README changes
+      - name: Commit changes if needed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -59,8 +57,8 @@ jobs:
           git add README.md
 
           if git diff --cached --quiet; then
-            echo "No changes detected."
+            echo "No README changes detected."
           else
-            git commit -m "chore: update GitHub stats"
+            git commit -m "chore: update README"
             git push
           fi

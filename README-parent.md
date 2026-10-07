@@ -1,48 +1,113 @@
-```bash
-# Welcome to My GitHub Terminal
->_ whoami
+# 👋 Sarika Mehra
+
+```console
+$ ./start-profile
 ```
-```bash
-Sarika Mehra
-I build, I solve, I learn — turning ideas into meaningful software one project at a time.
+
+```text
+╭────────────────────────────────────────────────────────────╮
+│                     SARIKA MEHRA                           │
+├────────────────────────────────────────────────────────────┤
+│ Software Developer | Problem Solver | Builder              │
+│ B.Tech CSE (Data Science)                                  │
+│ BPIT, Delhi                                                │
+│ Delhi, India                                               │
+╰────────────────────────────────────────────────────────────╯
 ```
-```bash
->_ neofetch --stats
+
+```console
+$ system-info
 ```
-```
-OS: Arch Linux
-Uptime: %%AGE%%
+
+```text
+OS: Windows 11
+Education: B.Tech CSE (Data Science)
+Status: Undergraduate
 Location: Delhi, India
-Kernel: BTech Undergrad
-Repositories: %%REPO_COUNT%%
-Stars: %%STARS_COUNT%%
-Followers: %%FOLLOWERS%%
-Contributions: %%CONTRIBUTIONS%%
-Last Commit: %%LAST_COMMIT_DATE%%
-Languages: JavaScript, TypeScript, Java
-Tech Stack: Node.js, React, Express, MongoDB, PostgreSQL
-Tools: Git, Appwrite,Github 
+Focus: Software Development & DSA
+Languages: Java, JavaScript, TypeScript, Java
+Stack: React, Next.js, Node.js, Express.js
+Databases: MongoDB, PostgreSQL, Supabase, Appwrite
+Tools: Git, GitHub, VS Code, Vercel
 ```
 
-```bash
->_ cat ~/profiles
-```
-🏆 **Competitive Programming:**
-
-[![Codeforces Badge](https://img.shields.io/badge/Codeforces-sarikamehra-0088CC?style=for-the-badge&logo=codeforces&logoColor=0088CC)](https://codeforces.com/profile/sarikamehra773)  
-[![Leetcode Badge](https://img.shields.io/badge/Leetcode-sarikamehra-FFA500?style=for-the-badge&logo=leetcode&logoColor=FFA500)](https://leetcode.com/u/sarikamehra5390/n)
-
-```bash
->_ ping -c1 chandansahoo.dev
-```
-📫 **Connect With Me:**
-
-[![Email Badge](https://img.shields.io/badge/Email-chandansahoo02468%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=red)](mailto:chandansahoo02468@gmail.com)  
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-chandansahoo--cs-blue?style=for-the-badge&logo=linkedin&logoColor=blue)](https://linkedin.com/in/chandansahoo-cs)  
-[![GitHub Badge](https://img.shields.io/badge/GitHub-chandanSahoo--cs-4C1D4A?style=for-the-badge&logo=github&logoColor=4C1D4A)](https://github.com/chandanSahoo-cs)  
-[![Discord Badge](https://img.shields.io/badge/Discord-chandansahoo-7289DA?style=for-the-badge&logo=discord&logoColor=7289DA)](https://discord.com/users/chandansahoo)
-
-```bash
->_ logout
+```console
+$ ./about-me
 ```
 
+I'm a software developer and problem solver who enjoys building practical applications, exploring new technologies, and continuously improving through hands-on projects.
+
+I build, I solve, I learn — turning ideas into meaningful software one project at a time.
+
+```console
+$ ./competitive-profile
+```
+
+🏆 **Competitive Programming**
+
+[![Codeforces](https://img.shields.io/badge/Codeforces-Sarika_Mehra-0088CC?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/sarikamehra773)
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-Sarika_Mehra-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/sarikamehra5390/)
+
+[![Codolio](https://img.shields.io/badge/Codolio-Sarika_Mehra-7C3AED?style=for-the-badge)](https://codolio.com/profile/Sarikamehra5390)
+
+```console
+$ ./projects --featured
+```
+
+🚀 **Projects**
+
+**BlogNest** — Full-stack blogging platform with authentication, CRUD operations, article management and AI-powered features.
+
+**SkillForge** — Skill tracking and gamification platform with practice sessions, streaks, notes and progress tracking.
+
+**Roamly** — Travel planning platform integrating weather, geocoding, places and currency APIs.
+
+**Sust-10-able** — Gamified sustainability experience designed around interactive environmental learning.
+
+```console
+$ ./achievements
+```
+
+🏆 **Achievements**
+
+- 🥇 1st Place — IKS Exhibition, BPIT, 2024
+- 🥉 3rd Place — Data Sphere, SpaceCon'25, NSUT
+- 👩‍💻 Team Leader — Smart India Hackathon 2025
+- 📄 Research Paper Co-author — ML optimization for quantum-dot-based quantum computers
+
+```console
+$ ./connect
+```
+
+📫 **Connect With Me**
+
+[![Email](https://img.shields.io/badge/Email-sarikamehra773%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sarikamehra773@gmail.com)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sarika_Mehra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarika-mehra-792b9426a/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-sarikamehra5390-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarikamehra5390)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sarika-mehra-portfolio.vercel.app/)
+
+[![Codolio](https://img.shields.io/badge/Codolio-Sarika_Mehra-7C3AED?style=for-the-badge)](https://codolio.com/profile/Sarikamehra5390)
+
+```console
+$ ./status
+```
+
+```text
+STATUS: ONLINE ✓
+
+Currently building.
+Currently learning.
+Currently solving.
+
+Build → Learn → Solve → Repeat
+```
+
+```console
+$ exit
+```
+
+**See you in the next commit. 👋**

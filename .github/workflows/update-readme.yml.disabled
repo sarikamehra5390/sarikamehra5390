@@ -1,18 +1,16 @@
-name: Update GitHub Stats
+name: Check GitHub Profile
 
 on:
   schedule:
-    # Run once every day at midnight UTC
     - cron: "0 0 * * *"
 
-  # Allow manual execution
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  update-readme:
+  check-profile:
     runs-on: ubuntu-latest
 
     steps:
@@ -49,16 +47,21 @@ jobs:
             exit 1
           fi
 
-      - name: Commit changes if needed
+      - name: Check for old Chandan references
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if grep -RniE \
+            "chandan|chandansahoo|readme-card-server-05r4|README-card.md" \
+            README.md .github 2>/dev/null; then
 
-          git add README.md
-
-          if git diff --cached --quiet; then
-            echo "No README changes detected."
+            echo "WARNING: Old profile references found."
+            exit 1
           else
-            git commit -m "chore: update README"
-            git push
+            echo "No old Chandan references found."
           fi
+
+      - name: Display README status
+        run: |
+          echo "--------------------------------"
+          echo "README.md is present."
+          echo "This workflow does NOT modify README.md."
+          echo "--------------------------------"

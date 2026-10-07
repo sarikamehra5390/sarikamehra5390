@@ -5,6 +5,7 @@ $ ./start-profile
 ```
 
 ```text
+
 ╭────────────────────────────────────────────────────────────╮
 │                     SARIKA MEHRA                           │
 ├────────────────────────────────────────────────────────────┤
@@ -45,7 +46,7 @@ $ ./competitive-profile
 
 🏆 **Competitive Programming**
 
-<p align="center">
+<p align="flex-wrap">
   <a href="https://codeforces.com/profile/sarikamehra773">
     <img src="./assets/badges/codeforces-badge-sarikamehra773.svg" alt="Codeforces" />
   </a>

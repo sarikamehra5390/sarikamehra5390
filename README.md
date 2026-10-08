@@ -26,8 +26,8 @@ Education: B.Tech CSE (Data Science)
 Status: Undergraduate
 Location: Delhi, India
 Focus: Software Development & DSA
-Languages: Java, JavaScript, TypeScript, Python
-Stack: React, Next.js, Node.js, Express.js
+Languages: Java, JavaScript, TypeScript
+Stack: React,Node.js, Express.js
 Databases: MongoDB, PostgreSQL, Supabase, Appwrite
 Tools: Git, GitHub, VS Code, Vercel
 ```
